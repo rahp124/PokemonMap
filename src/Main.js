@@ -159,7 +159,7 @@ class Main extends React.Component{
         this.setState({pokemon: snapshot.data().pokemon})
       })
       }
-      var i = 1;
+      
       if(this.state.pokemon){
         return this.state.pokemon.map(p=>{
           return(
